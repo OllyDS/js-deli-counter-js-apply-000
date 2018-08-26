@@ -12,4 +12,8 @@ function nowServing(otherDeli){
   return "Currently serving " + cust + ".";
 }
 
-function currentLine()
+function currentLine(katzDeli){
+  var line = [];
+  if (katzDeli.length === 0) return "The line is currenly empty.";
+  for
+}
