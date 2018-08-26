@@ -11,3 +11,5 @@ function nowServing(otherDeli){
   var cust = otherDeli.shift();
   return "Currently serving " + cust + ".";
 }
+
+function currentLine()
