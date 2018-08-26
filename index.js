@@ -18,5 +18,5 @@ function currentLine(katzDeli){
   for (var i = 0; i < katzDeli.length; i++){
     line.push( + i+1 + " " + katzDeli + ". ");
   }
-  return "The line is currenly: "
+  return "The line is currenly: " + line;
 }
